@@ -17,15 +17,12 @@
     "SLACK_BOT_SCOPES": {
       "description": "Slack App Bot Scopes (comma separated, no spaces)",
       "value": "channels:history,channels:join,channels:read,chat:write,commands,files:write"
+    },
+    "MONGO DB URL": {
+      "description": "Mongo Database URL"
     }
   },
   "success_url": "/slack/install",
-  "addons": [
-    {
-      "plan": "mongolab:sandbox",
-      "as": "MONGODB"
-    }
-  ],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
