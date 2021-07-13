@@ -18,7 +18,7 @@
       "description": "Slack App Bot Scopes (comma separated, no spaces)",
       "value": "channels:history,channels:join,channels:read,chat:write,commands,files:write"
     },
-    "MONGO_DB_URL": {
+    "MONGODB_URI": {
       "description": "Mongo Database URL"
     }
   },
